@@ -1,0 +1,16 @@
+ class Apple {
+    void showa(){
+        System.out.println("method 1 ");
+    }
+        }
+        class b extends Apple{
+       void showb()
+       {
+           System.out.println("method 2");}
+           public static  void main(String[]args){
+               {b obj = new b();
+               obj.showa();
+                b obj2 = new b();
+                obj2.showb();
+       }
+       }}
